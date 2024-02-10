@@ -34,5 +34,10 @@
     },
     "devDependencies": {
         "vsce": "^2.15.0"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:yua-menhera/touhou_danmakufu_ph3.git"
+    },
+    "license": "MIT"
 }
