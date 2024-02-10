@@ -1,4 +1,4 @@
-# touhou-danmakufu-ph3-highlight README
+# touhou-danmakufu-ph3 README
 
 This is the README for your extension "touhou-danmakufu-ph3-highlight". After writing up a brief description, we recommend including the following sections.
 

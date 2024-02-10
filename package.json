@@ -11,16 +11,28 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "dn3",
-            "aliases": ["Danmakufu PH3", "dn3"],
-            "extensions": [".dn3"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "dn3",
-            "scopeName": "source.dn3",
-            "path": "./syntaxes/dn3.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "dn3",
+                "aliases": [
+                    "Danmakufu PH3",
+                    "dn3"
+                ],
+                "extensions": [
+                    ".dn3"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "dn3",
+                "scopeName": "source.dn3",
+                "path": "./syntaxes/dn3.tmLanguage.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "vsce": "^2.15.0"
     }
 }
