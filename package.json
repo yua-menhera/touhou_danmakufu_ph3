@@ -1,26 +1,26 @@
 {
-    "name": "touhou-danmakufu-ph3-highlight",
+    "name": "touhou-danmakufu-ph3-highlight-fork",
     "displayName": "Touhou Danmakufu ph3 Highlight",
     "description": "Touhou danmakufu ph3 script(.dnh) Syntax Highlight for Visual Studio Code.",
     "version": "0.0.1",
-    "publisher": "OTA",
+    "publisher": "yuuka-menhera",
     "engines": {
         "vscode": "^1.23.0"
     },
     "categories": [
-        "Languages"
+        "Programming Languages"
     ],
     "contributes": {
         "languages": [{
-            "id": "dnh",
-            "aliases": ["Danmakufu", "dnh"],
-            "extensions": [".dnh"],
+            "id": "dn3",
+            "aliases": ["Danmakufu PH3", "dn3"],
+            "extensions": [".dn3"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
-            "language": "dnh",
-            "scopeName": "source.dnh",
-            "path": "./syntaxes/dnh.tmLanguage.json"
+            "language": "dn3",
+            "scopeName": "source.dn3",
+            "path": "./syntaxes/dn3.tmLanguage.json"
         }]
     }
 }
